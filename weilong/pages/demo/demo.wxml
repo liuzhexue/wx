@@ -1,0 +1,39 @@
+<!--pages/demo/demo.wxml-->
+<template name="type">
+<view class='type'>
+  <image class='type' src='../imgs/type.png'></image>
+</view>
+<view class='product' wx:for="{{productUrls}}" wx:key="*this">
+        <view class='left' >
+            <image src="{{item}}" class='productimg'></image>   
+            <text>111</text>
+        </view> 
+      <view class='right'>
+      <view class='delist'>活动名称</view>
+      <view class='delist'>团价</view>
+      <view class='delist'>
+      <view>单人价</view>
+      <view>去开团</view>
+      </view>
+      </view>
+</view>
+</template>
+<template name="discount">
+<view class='discount'>
+  <image class='active' src='../imgs/active.png'></image>
+</view>
+<view class='discountcontainer'>
+  <view class='discountlist' wx:for="{{discountListUrls}}" wx:key="*this">
+        <view class='discountimglist' >
+            <image src="{{item}}" class='discountlistimg'></image>   
+            <view class='discountname'>
+                  <view class='name'>风味</view>
+                  <view class='buy'>
+                  <view class='price'>5.00</view>
+                  <view class='buyLimit'>马上抢</view>
+                  </view>
+            </view>
+        </view>
+  </view>
+</view>
+</template>

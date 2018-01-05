@@ -1,0 +1,101 @@
+/**index.wxss**/
+.top{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 110px;
+  flex-wrap: wrap;
+}
+.logo{
+  width: 60px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  }
+  .section{
+    display: flex;
+    width: 100%;
+    padding: 0;
+  }
+  .serach{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 1px solid gray;
+  }
+  .listmodel{
+    width: 320px;
+  }
+  .type{
+    width: 320px;
+    height: 100px;
+  }
+  .product{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+  }
+.left{
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height: 100px;
+}
+.productimg{
+  width: 80px;
+  height: 80px;
+}
+.right{
+  width: 240px;
+  height: 100px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+}
+.delist{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.active{
+  width: 320px;
+  height: 110px;
+}
+.discountcontainer{
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+.discountlist{
+  width: 130px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top:5px;
+}
+.discountimglist{
+  width:130px;
+}
+.discountlistimg{
+  width: 130px;
+  height: 130px;
+}
+.discountname{
+  width: 130px;
+}
+.buy{
+  display: flex;
+  flex-direction: row;
+}
+.foot{
+width: 320px;
+height: 110px;
+padding-bottom: 20px;
+}
+.brand{
+  width: 80px;
+  height: 40px;
+}
